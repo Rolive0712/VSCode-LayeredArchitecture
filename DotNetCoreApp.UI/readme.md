@@ -49,3 +49,6 @@ As folder structures are created, its very important to specify correct path in 
 >> "program":
 >> "cwd":
 refer : http://blog.evizija.si/webpack-dev-middleware-failed-because-of-an-error-while-loading-aspnet-webpack/
+
+IE 9, IE 10, IE 11 support
+refer: https://github.com/aspnet/JavaScriptServices/wiki/Supporting-Internet-Explorer-11-(or-older)

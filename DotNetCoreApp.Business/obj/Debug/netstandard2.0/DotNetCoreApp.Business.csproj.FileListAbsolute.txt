@@ -1,0 +1,12 @@
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.csproj.CoreCompileInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.AssemblyInfoInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.AssemblyInfo.cs
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\bin\Debug\netstandard2.0\DotNetCoreApp.Business.deps.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\bin\Debug\netstandard2.0\DotNetCoreApp.Business.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\bin\Debug\netstandard2.0\DotNetCoreApp.Business.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\bin\Debug\netstandard2.0\DotNetCoreApp.DataAccess.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\bin\Debug\netstandard2.0\DotNetCoreApp.DataAccess.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.csproj.CopyComplete
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Business\obj\Debug\netstandard2.0\DotNetCoreApp.Business.csprojResolveAssemblyReference.cache

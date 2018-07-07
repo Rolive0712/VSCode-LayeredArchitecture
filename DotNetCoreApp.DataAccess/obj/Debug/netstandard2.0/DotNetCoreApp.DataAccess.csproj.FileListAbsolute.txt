@@ -1,0 +1,8 @@
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\bin\Debug\netstandard2.0\DotNetCoreApp.DataAccess.deps.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\bin\Debug\netstandard2.0\DotNetCoreApp.DataAccess.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\bin\Debug\netstandard2.0\DotNetCoreApp.DataAccess.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.AssemblyInfoInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.AssemblyInfo.cs
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.pdb

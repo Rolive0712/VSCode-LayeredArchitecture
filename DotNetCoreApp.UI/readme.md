@@ -1,0 +1,50 @@
+STEPS
+
+* dotnet new sln            -- create blank solution
+* mkdir "DotNetCoreApp.UI"
+* cd "DotNetCoreApp.UI"
+* run "dotnet new angular"  -- setup angular boiler plate within UI folder
+* run "dotnet restore"
+* run "npm install"
+* run "dotnet build"        -- after setup build to create bin,obj folders and .dll files within the same.
+
+Now add UI project to blank solution file
+
+* run "cd.."                -- to come to level where the solution file is present
+* run "dotnet sln add "DotNetCoreApp.UI/DotNetCoreApp.UI.csproj"    -- this adds project to solution
+
+Create new "business" c# library project 
+
+* run "dotnet new classlib -n "DotNetCoreApp.Business"
+* Add a method call in the library
+* run "dotnet build"
+* run dotnet sln add ".\DotNetCoreApp.Business\DotNetCoreApp.Business.csproj"
+
+Create new "dataaccess" c# library project 
+
+* dotnet new classlib -n "DotNetCoreApp.DataAccess"
+* Add a method call in the library
+* run "dotnet build"
+* run dotnet sln add ".\DotNetCoreApp.DataAccess\DotNetCoreApp.DataAccess.csproj"
+
+Reference DataAccess library within Business library
+
+* get into business library project folder
+* run dotnet add .\DotNetCoreApp.Business.csproj reference "..\DotNetCoreApp.DataAccess\DotNetCoreApp.DataAccess.csproj"
+* run dotnet build
+
+Reference Business library within UI project
+
+* get into UI app project folder
+* dotnet add .\DotNetCoreApp.UI.csproj reference "..\DotNetCoreApp.Business\DotNetCoreApp.Business.csproj"
+* dotnet build
+
+finally run the project by selecting the configured browser
+
+RUN below command to check for errors if any
+* run dotnet run --project "C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.UI\DotNetCoreApp.UI.csproj" --configuration debug
+
+As folder structures are created, its very important to specify correct path in launch.json configuration for each browser.
+* in configuration mention correct path under attributes mentioned below.
+>> "program":
+>> "cwd":

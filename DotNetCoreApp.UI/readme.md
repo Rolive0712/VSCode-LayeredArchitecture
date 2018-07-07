@@ -11,7 +11,7 @@ STEPS
 Now add UI project to blank solution file
 
 * run "cd.."                -- to come to level where the solution file is present
-* run "dotnet sln add "DotNetCoreApp.UI/DotNetCoreApp.UI.csproj"    -- this adds project to solution
+* run "dotnet sln add ".\DotNetCoreApp.UI\DotNetCoreApp.UI.csproj"    -- this adds project to solution
 
 Create new "business" c# library project 
 
@@ -42,9 +42,10 @@ Reference Business library within UI project
 finally run the project by selecting the configured browser
 
 RUN below command to check for errors if any
-* run dotnet run --project "C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.UI\DotNetCoreApp.UI.csproj" --configuration debug
+* run dotnet run --project "${workspaceFolder}\DotNetCoreApp.UI.csproj" --configuration debug
 
 As folder structures are created, its very important to specify correct path in launch.json configuration for each browser.
 * in configuration mention correct path under attributes mentioned below.
 >> "program":
 >> "cwd":
+refer : http://blog.evizija.si/webpack-dev-middleware-failed-because-of-an-error-while-loading-aspnet-webpack/

@@ -1,0 +1,10 @@
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.deps.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.runtimeconfig.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.runtimeconfig.dev.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.csproj.CoreCompileInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.AssemblyInfoInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.AssemblyInfo.cs
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.pdb

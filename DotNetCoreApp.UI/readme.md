@@ -69,3 +69,4 @@ check:
 
 VSCode behind firewall
  * https://taeguk.co.uk/blog/working-in-visual-studio-behind-the-firewall/
+ * http://blog.majcica.com/2016/04/07/visual-studio-code-behind-a-proxy/

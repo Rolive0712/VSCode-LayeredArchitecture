@@ -61,3 +61,8 @@ Visual Studio Code uses the power of Roslyn and OmniSharp to offer an enhanced C
 * to get intellisense working, added one more TestConsole project as standalone project not included within the root solution
 * then started debugging console using ".NET Core Attach" configuration
 * then automatically intellisense started working in UI project and all other class libraries also.
+
+Quick way to add dll references in class library project
+check:
+* https://stackoverflow.com/questions/42000798/how-to-add-assembly-references-in-visual-studio-code/42399545#42399545
+* https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package

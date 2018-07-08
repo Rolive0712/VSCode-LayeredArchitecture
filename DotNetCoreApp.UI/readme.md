@@ -57,3 +57,7 @@ refer: https://github.com/aspnet/JavaScriptServices/wiki/Supporting-Internet-Exp
 * C# support
 Visual Studio Code uses the power of Roslyn and OmniSharp to offer an enhanced C# experience.
 * check: https://code.visualstudio.com/docs/languages/csharp
+
+* to get intellisense working, added one more TestConsole project as standalone project not included within the root solution
+* then started debugging console using ".NET Core Attach" configuration
+* then automatically intellisense started working in UI project and all other class libraries also.

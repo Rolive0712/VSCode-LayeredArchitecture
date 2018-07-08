@@ -1,4 +1,5 @@
-STEPS
+STEPS ( .Net Core CLI commands)
+* check=> https://docs.microsoft.com/en-us/dotnet/core/tools/index?tabs=netcore1x
 
 * dotnet new sln            -- create blank solution
 * mkdir "DotNetCoreApp.UI"
@@ -50,5 +51,9 @@ As folder structures are created, its very important to specify correct path in 
 >> "cwd":
 refer : http://blog.evizija.si/webpack-dev-middleware-failed-because-of-an-error-while-loading-aspnet-webpack/
 
-IE 9, IE 10, IE 11 support
+* IE 9, IE 10, IE 11 support
 refer: https://github.com/aspnet/JavaScriptServices/wiki/Supporting-Internet-Explorer-11-(or-older)
+
+* C# support
+Visual Studio Code uses the power of Roslyn and OmniSharp to offer an enhanced C# experience.
+* check: https://code.visualstudio.com/docs/languages/csharp

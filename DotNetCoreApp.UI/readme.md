@@ -66,3 +66,6 @@ Quick way to add dll references in class library project
 check:
 * https://stackoverflow.com/questions/42000798/how-to-add-assembly-references-in-visual-studio-code/42399545#42399545
 * https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+
+VSCode behind firewall
+ * https://taeguk.co.uk/blog/working-in-visual-studio-behind-the-firewall/

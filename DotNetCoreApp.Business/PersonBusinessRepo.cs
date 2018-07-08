@@ -13,7 +13,14 @@ namespace DotNetCoreApp.Business
         public string GetBSString()
         {
            PersonDBRepository b = new PersonDBRepository();
-           return "From Business Layer" + b.GetDBString();
+           return "From Business Layer" + b.GetDBString() + b.CheckIntellisense();
+
+        }
+
+        public string CheckBSIntellisense()
+        {
+           
+           return "From Business Layer intellisense";
 
         }
     }

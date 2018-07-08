@@ -19,7 +19,7 @@ namespace DotNetCoreApp.UI.Controllers
         public IEnumerable<WeatherForecast> WeatherForecasts()
         {
             PersonBusinessRepo pbr = new PersonBusinessRepo();
-            string x = pbr.GetBSString();
+            string x = pbr.GetBSString() + pbr.CheckBSIntellisense();
             
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

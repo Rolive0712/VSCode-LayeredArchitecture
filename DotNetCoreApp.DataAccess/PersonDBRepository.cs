@@ -13,5 +13,10 @@ namespace DotNetCoreApp.DataAccess
         {
             return "From DataAccess Layer";
         }
+
+        public string CheckIntellisense()
+        {
+            return "Checking Intellisense";
+        }
     }
 }

@@ -1,12 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 
 namespace DotNetCoreApp.UI
 {
@@ -22,6 +25,23 @@ namespace DotNetCoreApp.UI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //configure JWT Authentication middleware
+            // https://dotnetthoughts.net/token-based-authentication-in-aspnet-core/
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(jwtBearerOptions =>
+                {
+                    jwtBearerOptions.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateActor = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Issuer"],
+                        ValidAudience = Configuration["Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SigningKey"]))
+                    };
+                });
+            
             services.AddMvc();
         }
 
@@ -46,6 +66,9 @@ namespace DotNetCoreApp.UI
             }
 
             app.UseStaticFiles();
+
+            //add the authentication middleware to application builder
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {

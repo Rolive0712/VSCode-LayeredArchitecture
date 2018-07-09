@@ -7,6 +7,8 @@ using DotNetCoreApp.Business;
 
 namespace DotNetCoreApp.UI.Controllers
 {
+    // uncomment "Authorize" after "UserLoginController" is configured. once configured this API will be protected 
+    //[Authorize] 
     [Route("api/[controller]")]
     public class SampleDataController : Controller
     {

@@ -1,0 +1,12 @@
+https://taeguk.co.uk/blog/working-in-visual-studio-behind-the-firewall/
+https://www.gurustop.net/blog/2010/08/10/visual-studio-2010-extension-manager-online-gallery-behind-internet-proxy/
+http://fitsofury.blogspot.com/2016/06/visual-studio-2015-update-2-nugetconfig.html
+https://forums.asp.net/t/2096179.aspx?Proxy+407+Access+Denied
+https://stackoverflow.com/questions/36310915/package-manager-in-visual-studio-2015-407-proxy-authentication-required
+http://marcomengoli.github.io/miscellaneous/NuGet-proxy-config/
+http://codesteer.com/blog/nuget-work-behind-proxy/
+https://support.microsoft.com/en-us/help/910804/you-receive-a-proxy-authentication-required-error-message-when-you-try
+https://stackoverflow.com/questions/13717815/visual-studio-error-407-proxy-authentication-required
+http://thewebjedi.com/be/post/2012/10/10/Visual-Studio-2012-Extension-Updates-and-%28417%29-Expectation-failed.aspx
+https://msdn.microsoft.com/en-us/library/dn771556.aspx
+https://www.sitefinity.com/developer-network/forums/developing-with-sitefinity-/the-remote-server-returned-an-error-(407)-proxy-authentication-required

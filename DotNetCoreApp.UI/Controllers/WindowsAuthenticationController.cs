@@ -9,6 +9,9 @@ namespace DotNetCoreApp.UI.Controllers
     // JWT in Intranet Environment.
     //https://stackoverflow.com/questions/27217424/use-windows-authentication-with-oauth-2-0
 
+    //check below link to use asp.net identity with .net core
+    //http://docs.identityserver.io/en/release/quickstarts/6_aspnet_identity.html
+
     // [RoutePrefix("token/windows")]
     // public class WindowsAuthenticationController: ApiController
     // {

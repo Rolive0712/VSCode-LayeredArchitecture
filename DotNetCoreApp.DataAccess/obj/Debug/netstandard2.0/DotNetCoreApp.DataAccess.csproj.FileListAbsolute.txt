@@ -6,3 +6,4 @@ C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.Dat
 C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.AssemblyInfo.cs
 C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.dll
 C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCoreApp.DataAccess\obj\Debug\netstandard2.0\DotNetCoreApp.DataAccess.csprojResolveAssemblyReference.cache

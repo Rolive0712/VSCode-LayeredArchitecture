@@ -70,3 +70,17 @@ check:
 VSCode behind firewall
  * https://taeguk.co.uk/blog/working-in-visual-studio-behind-the-firewall/
  * http://blog.majcica.com/2016/04/07/visual-studio-code-behind-a-proxy/
+
+ MSBuild command line publish
+ * https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/command-line-deployment
+
+ Publish to local folder
+ * dotnet publish -o "C:\Roshit\VisualStudioCode_Projects\publish_path" --configuration release
+ * after publish is success, go to the published folder cd <publish path>
+ * then run "dotnet DotNetCoreApp.UI.dll"
+ * you should get message 
+   server listening on4
+   application started
+   
+
+

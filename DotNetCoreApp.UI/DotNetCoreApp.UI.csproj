@@ -20,6 +20,11 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
 
+  <!-- <ItemGroup>
+    To include views folder in publish path
+    <Content Include="Views\**\*" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup> -->
+
   <ItemGroup>
     <ProjectReference Include="..\DotNetCoreApp.Business\DotNetCoreApp.Business.csproj" />
   </ItemGroup>

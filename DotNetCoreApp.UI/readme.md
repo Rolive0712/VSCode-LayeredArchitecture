@@ -88,3 +88,9 @@ Publish to IIS on server
  * Then create application pool configured to "No Managed Code" and "network service"
  * Create new website and map it to this new app pool.
 
+ Publish to IIS on local dev machine
+ * AspNetCoreModule" will be available as dev machine has .net core sdk.
+ * create application pool configured to "No Managed Code" and "network service"
+ * Create new website and map it to this new app pool.
+
+

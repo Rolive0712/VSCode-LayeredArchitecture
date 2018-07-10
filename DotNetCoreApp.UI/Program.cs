@@ -20,7 +20,16 @@ namespace DotNetCoreApp.UI
 
         public static IWebHost BuildWebHost(string[] args) =>
 
+            // commented code below does not work if deployed on local server IIS. it comes with boilerplate.
+
+            // WebHost.CreateDefaultBuilder(args)
+            //     .UseStartup<Startup>()
+            //     .Build();
+
             WebHost.CreateDefaultBuilder(args)
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
      }

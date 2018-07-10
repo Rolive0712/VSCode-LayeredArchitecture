@@ -27,20 +27,20 @@ namespace DotNetCoreApp.UI
         {
             //configure JWT Authentication middleware
             // https://dotnetthoughts.net/token-based-authentication-in-aspnet-core/
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(jwtBearerOptions =>
-                {
-                    jwtBearerOptions.TokenValidationParameters = new TokenValidationParameters()
-                    {
-                        ValidateActor = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
-                        ValidIssuer = Configuration["Issuer"],
-                        ValidAudience = Configuration["Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SigningKey"]))
-                    };
-                });
+            // services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //     .AddJwtBearer(jwtBearerOptions =>
+            //     {
+            //         jwtBearerOptions.TokenValidationParameters = new TokenValidationParameters()
+            //         {
+            //             ValidateActor = true,
+            //             ValidateAudience = true,
+            //             ValidateLifetime = true,
+            //             ValidateIssuerSigningKey = true,
+            //             ValidIssuer = Configuration["Issuer"],
+            //             ValidAudience = Configuration["Audience"],
+            //             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SigningKey"]))
+            //         };
+            //     });
             
             services.AddMvc();
         }
@@ -57,7 +57,7 @@ namespace DotNetCoreApp.UI
                      //extremely important to add line below or else auto refresh for client side changes on browser does not work out.
                     //this has to be added explicitly. does not come with command "dotnet new angular"
 
-                    //HotModuleReplacementEndpoint = "/dist/__webpack_hmr"
+                    HotModuleReplacementEndpoint = "/dist/__webpack_hmr"
                 });
             }
             else
@@ -68,7 +68,7 @@ namespace DotNetCoreApp.UI
             app.UseStaticFiles();
 
             //add the authentication middleware to application builder
-            app.UseAuthentication();
+            //app.UseAuthentication();
 
             app.UseMvc(routes =>
             {

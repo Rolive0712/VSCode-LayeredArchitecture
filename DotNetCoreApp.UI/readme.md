@@ -87,6 +87,4 @@ Publish to IIS on server
  * After that, ensure "AspNetCoreModule" is listed as part of all native modules in IIS
  * Then create application pool configured to "No Managed Code" and "network service"
  * Create new website and map it to this new app pool.
- * test
-
 

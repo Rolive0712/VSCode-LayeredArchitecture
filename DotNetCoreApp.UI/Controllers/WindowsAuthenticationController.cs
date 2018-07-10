@@ -30,4 +30,7 @@ namespace DotNetCoreApp.UI.Controllers
     //         //I used something inspired from http://bitoftech.net/2015/02/16/implement-oauth-json-web-tokens-authentication-in-asp-net-web-api-and-identity-2/
     //     }
     // }
+
+    // also check link below
+    //https://pioneercode.com/post/authentication-in-an-asp-dot-net-core-api-part-3-json-web-token
 }

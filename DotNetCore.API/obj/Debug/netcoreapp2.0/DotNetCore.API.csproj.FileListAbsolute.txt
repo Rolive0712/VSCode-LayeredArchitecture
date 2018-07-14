@@ -1,0 +1,10 @@
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\bin\Debug\netcoreapp2.0\DotNetCore.API.deps.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\bin\Debug\netcoreapp2.0\DotNetCore.API.runtimeconfig.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\bin\Debug\netcoreapp2.0\DotNetCore.API.runtimeconfig.dev.json
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\bin\Debug\netcoreapp2.0\DotNetCore.API.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\bin\Debug\netcoreapp2.0\DotNetCore.API.pdb
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\obj\Debug\netcoreapp2.0\DotNetCore.API.csproj.CoreCompileInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\obj\Debug\netcoreapp2.0\DotNetCore.API.AssemblyInfoInputs.cache
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\obj\Debug\netcoreapp2.0\DotNetCore.API.AssemblyInfo.cs
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\obj\Debug\netcoreapp2.0\DotNetCore.API.dll
+C:\Roshit\VisualStudioCode_Projects\VSCode-LayeredArchitecture\DotNetCore.API\obj\Debug\netcoreapp2.0\DotNetCore.API.pdb

@@ -76,10 +76,12 @@ VSCode behind firewall
 
  Publish to local folder
  * dotnet publish -o "C:\Roshit\VisualStudioCode_Projects\publish_path" --configuration release
+ dotnet publish -o "C:\inetpub\wwwroot\DotNetCoreUI" --configuration release
+ * if publish fails due to access issues, then provide "authenticated users" full permission on "wwwroot" folder.
  * after publish is success, go to the published folder cd <publish path>
  * then run "dotnet DotNetCoreApp.UI.dll"
  * you should get message 
-   server listening on4
+   server listening on ......
    application started
    
 Publish to IIS on server
@@ -92,5 +94,12 @@ Publish to IIS on server
  * AspNetCoreModule" will be available as dev machine has .net core sdk.
  * create application pool configured to "No Managed Code" and "network service"
  * Create new website and map it to this new app pool.
+ * now browse app from IIS. it should run fine.
+if below error appears,
+* "One or more errors occurred. (Webpack dev middleware failed because of an error while loading 'aspnet-webpack'. Error was: Error:      Cannot find module 'aspnet-webpack'"
+ 
 
+
+All works fine. Now lets separate the API part by creating new API project and adding JWT support on it to secure the API.
+* run dotnet new webapi -n "DotNetCore.API"
 

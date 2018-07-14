@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCoreApp.Business")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("release")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCore.API")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("DotNetCoreApp.Business")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DotNetCoreApp.Business")]
+[assembly: System.Reflection.AssemblyProductAttribute("DotNetCore.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DotNetCore.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

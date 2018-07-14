@@ -55,11 +55,11 @@ namespace DotNetCoreApp.UI
                 
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
-                    HotModuleReplacement = true,
+                    HotModuleReplacement = true//,
                      //extremely important to add line below or else auto refresh for client side changes on browser does not work out.
                     //this has to be added explicitly. does not come with command "dotnet new angular"
 
-                    HotModuleReplacementEndpoint = "/dist/__webpack_hmr"
+                    //HotModuleReplacementEndpoint = "/dist/__webpack_hmr"
                 });
             }
             else

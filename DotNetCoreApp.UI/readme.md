@@ -1,6 +1,8 @@
 STEPS ( .Net Core CLI commands)
 * check=> https://docs.microsoft.com/en-us/dotnet/core/tools/index?tabs=netcore1x
 
+* npm install webpack-notifier --save-dev
+* npm install -g webpack
 * dotnet new sln            -- create blank solution
 * mkdir "DotNetCoreApp.UI"
 * cd "DotNetCoreApp.UI"
@@ -77,6 +79,9 @@ VSCode behind firewall
  Publish to local folder
  * dotnet publish -o "C:\Roshit\VisualStudioCode_Projects\publish_path" --configuration release
  dotnet publish -o "C:\inetpub\wwwroot\DotNetCoreUI" --configuration release
+ Always publish from root folder. Here its "VSCODE-LAYEREDAECHITECTURE".
+ If published from other child folders, you will get error as below one you run the application
+* "One or more errors occurred. (Webpack dev middleware failed because of an error while loading 'aspnet-webpack'. Error was: Error:      Cannot find module 'aspnet-webpack'"
  * if publish fails due to access issues, then provide "authenticated users" full permission on "wwwroot" folder.
  * after publish is success, go to the published folder cd <publish path>
  * then run "dotnet DotNetCoreApp.UI.dll"
@@ -96,7 +101,7 @@ Publish to IIS on server
  * Create new website and map it to this new app pool.
  * now browse app from IIS. it should run fine.
 if below error appears,
-* "One or more errors occurred. (Webpack dev middleware failed because of an error while loading 'aspnet-webpack'. Error was: Error:      Cannot find module 'aspnet-webpack'"
+
  
 
 
